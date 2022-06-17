@@ -2,10 +2,10 @@ package Assignment;
 
 public class Pyramid {
     public static void main(String[] args) {
-        int no = 5;
-        for(int i=1;i<=no;i++)
+//        int no = 5;
+        for(int i=1;i<=4;i++)
         {
-            for(int j=no;j>=i;j--)
+            for(int j=4;j>=i;j--)
             {
                 System.out.print(" * ");
             }
