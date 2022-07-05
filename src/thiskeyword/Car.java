@@ -1,5 +1,6 @@
 package thiskeyword;
-
+/**
+ * 1.it refer to current class instance variable*/
 public class Car {
     int carNo;
     String carName;
