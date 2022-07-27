@@ -1,0 +1,101 @@
+
+
+- an object which contains elements of a similar data type
+- stored in contiguous memory location
+- can store only a fixed set of elements in array
+- index-based, first element of the array is stored at 0th index
+- variables in the array are ordered
+
+
+Advantages:
+1. code optimization
+2. Random access
+
+Disadvantage:
+1. size limit
+
+Types of Array
+1. Single Dimensional Array
+	Syntax:
+		datatype[] var_name; OR
+		datatype []var_name; OR
+		datatype var_name[];
+
+2. Multidimensional Array
+	Syntax:
+		datatype[][] var_name; OR
+		datatype [][]var_name; OR
+		datatype var_name[][]; OR
+		datatype []var_name[];
+
+Jagged Array
+	- creating odd number of columns
+	- an array of arrays with diff no of columns
+
+
+
+
+
+Homework:
+1. Create class Employee
+	id
+	name
+	mobileNo
+	emailId
+
+	print only even index employee.Add emp data by using scanner class
+
+2.int a[] = {1,1,5,3,9,8,6,7,5,4}
+Find duplicate elements of an array & print
+
+3. Addition of 2*2 Matrix
+4. Addition of 3*3 Matrix
+
+***********************************************************************
+
+1) Java Program to copy all elements of one array into another array
+2) Java Program to find the frequency of each element in the array
+3) Java Program to left rotate the elements of an array
+4) Java Program to print the duplicate elements of an array
+5) Java Program to print the elements of an array
+6) Java Program to print the elements of an array in reverse order
+7) Java Program to print the elements of an array present on even position
+8) Java Program to print the elements of an array present on odd position
+9) Java Program to print the largest element in an array
+10) Java Program to print the smallest element in an array
+11) Java Program to print the number of elements present in an array
+12) Java Program to print the sum of all the items of the array
+13) Java Program to right rotate the elements of an array
+14) Java Program to sort the elements of an array in ascending order
+15) Java Program to sort the elements of an array in descending order
+16) Find 3rd Largest/smallest Number in an Array
+17) Find 2nd Largest//smallest Number in an Array
+18) Find Largest/smallest Number in an Array
+19) Find 2nd Smallest Number in an Array
+20) Find Smallest Number in an Array
+21) Remove Duplicate Element in an Array
+22) Add Two Matrices
+23) Multiply Two Matrices
+24) Print Odd and Even Number from an Array
+25) Transpose matrix
+26) Java Program to subtract the two matrices
+27) Java Program to determine whether a given matrix is an identity matrix
+28) Java Program to determine whether a given matrix is a sparse matrix
+29) Java Program to determine whether two matrices are equal
+30) Java Program to display the lower triangular matrix
+31) Java Program to display the upper triangular matrix
+32) Java Program to find the frequency of odd & even numbers in the given matrix
+33) Java Program to find the product of two matrices
+34) Java Program to find the sum of each row and each column of a matrix
+35) Java Program to find the transpose of a given matrix
+36) array={1,2,3,4,5}
+	remove 3
+	array1={1,2,4,5}
+37)find missing no.
+	start element & end element 31-40  42,43,45
+	missing nos 41 44
+ 1
+src/arrays/ArrayDemo1.java
+
+
+
