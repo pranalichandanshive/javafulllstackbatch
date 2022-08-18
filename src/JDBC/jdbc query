@@ -1,0 +1,20 @@
+
+aggrigation and crud by h/m
+update emp set job ='CLERK'where empno=121;
+delete
+procedure
+trigger
+view
+function
+create procedure getAllEmployee()
+
+*****Workbench***
+delimeter//
+create procedure getAllEmployee()
+begin
+select * rom emp;
+end//
+
+delimiter//
+create p
+
