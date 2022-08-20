@@ -17,6 +17,6 @@ class EmployeeImpl{
         Employee.show();
         Employee e =new Employee();
         e.display();
-
+        System.out.println();
     }
 }
