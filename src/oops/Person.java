@@ -32,7 +32,7 @@ class PersonImpl{
         p1.lastname="Chandanshive";
         p1.address="Baramati";
         p1.age=26;
-
+//**************************************************************
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter firstname : ");
@@ -49,7 +49,7 @@ class PersonImpl{
 
         Person p2 =new Person();
         p2.insertData(fname,lname,addr,age);
-
+//******************************************************************************
         Person p3 = new Person();
         p3.insertData("Madhuri","Chandanshive","Solapur",50);
 

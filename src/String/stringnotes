@@ -87,7 +87,38 @@ Homework:
 	}
 }
 
-14. Difference between String,String Buffer & String Builder
+14. Difference between String,String Buffer & String Buffer
+
+     String                               String Buffer
+i) The String class is immutable.     i) The StringBuffer class is mutable.
+ii) String class uses String          ii) StringBuffer uses Heap memory
+    constant pool.
+iii) String class is slower            iii) String class is faster
+      while performing                       while performing
+      concatenation operation.             concatenation operation.
+iv) String is slow and consumes more    iv)StringBuffer is fast and consumes less
+ memory when we concatenate too many        memory when we concatenate strings.
+ strings because every time it
+ creates new instance.
+
+
+ Q . Diffrence between String Buffer and String Builder
+
+         String Buffer                                       String Builder
+
+ i) StringBuffer is synchronized                            i) StringBuilder is non-synchronized
+     i.e. thread safe.                                           i.e. not thread safe. It means
+    It means two threads can't call                            two threads can call the methods
+    the methods of StringBuffer                                 of StringBuilder simultaneously.
+    simultaneously.
+
+ii)StringBuffer is less efficient than StringBuilder.        ii)StringBuilder is more efficient than StringBuffer.
+
+iii)StringBuffer was introduced in Java 1.0                  iii)StringBuilder was introduced in Java 1.5
+
+
 15. How to reverse a String in Java?
 16. Java Program to check if a vowel is present in the string?
 17. Difference between replace() & replaceAll()
+
+h/w codepointAt method
